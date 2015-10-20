@@ -1,5 +1,5 @@
 ---
-title: 历史文档
+title: History_articals
 ---
 # {{title.page}}#
 
