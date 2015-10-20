@@ -1,3 +1,3 @@
 markdown: redcarpet
 hostname: smartcoach.github.io
-permalink: /:title.html
+permalink: date
