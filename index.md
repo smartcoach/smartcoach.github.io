@@ -1,4 +1,7 @@
-# 历史文档#
+---
+title: 历史文档
+---
+# {{title.page}}#
 
 * 拉伸运动
     1. [文章一](http://www.baidu.com)
