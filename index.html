@@ -8,10 +8,13 @@ title: 历史文档
 　　<title>{{page.title}}</title>
 </head>
 <body>
+ 发表过的文章：<br>
+ <ui>
  {% for post in site.posts %}
     <li>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li>
-    {% endfor %}
+ {% endfor %}
+ </ui>
 </body>
 </html>
