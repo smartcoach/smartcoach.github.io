@@ -6,7 +6,7 @@ var data=[
     {
         name:"中文",
         items:[
-            {url:"http://www.qq.com",img:"https://www.baidu.com/img/bd_logo1.png",tip:'hhh1'},
+            {url:"http://www.qq.com",img:"https://www.baidu.com/img/bd_logo1.png",tip:'<h1>文章标题</h1><p>h1</p>'},
             {url:"http://www.qq.com",img:"https://www.baidu.com/img/bd_logo1.png",tip:'hhh2'},
             {url:"http://www.qq.com",img:"https://www.baidu.com/img/bd_logo1.png",tip:'hhh2'},
             {url:"http://www.qq.com",img:"https://www.baidu.com/img/bd_logo1.png",tip:'hhh2'},
