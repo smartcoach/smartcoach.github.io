@@ -1,0 +1,38 @@
+<header>
+    <img src="<%=topBar.src%>" style="<%=topBar.style%>">
+</header>
+<div class="weui_tab">
+    <div class="weui_navbar">
+        <%
+            for(var i=0;i<data.length;++i) {
+        %>
+
+        <a class="weui_navbar_item <%= i==0 ? 'weui_bar_item_on':''%>" id="item<%=i%>">
+           <%=data[i].name%>
+        </a>
+        <%}%>
+    </div>
+    <div class="weui_tab_bd">
+    </div>
+</div>
+<%
+for(var i=0;i<data.length;++i){
+%>
+<div class="weui_cells weui_cells_access" id="item<%=i%>C" style="display:<%= i== 0 ?'':'none'%>">
+    <%
+        var ts=data[i].items;
+        for(var j=0;j<ts.length;++j){
+    %>
+    <a class="weui_cell" href="<%=ts[j].url%>">
+        <div class="weui_cell_hd">
+            <img src="<%=ts[j].img%>" alt='图标' style="width:40px;margin-right:5px;display:block">
+        </div>
+        <div class="weui_cell_bd weui_cell_primary">
+            <%=ts[j].tip%>
+        </div>
+        <div class="weui_cell_ft">
+        </div>
+    </a>
+    <%}%>
+</div>
+<%}%>
