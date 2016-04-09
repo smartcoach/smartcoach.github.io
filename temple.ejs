@@ -19,8 +19,8 @@
 for(var i=0;i<data.length;++i){
     var ts=data[i].items;
 %>
-<div class="weui_cells_title"><%=ts.name%></div>
-<div class="weui_cells weui_cells_access" id="item<%=i%>C" style="<%= i == 0 ?'':'display:none;'%>">
+<div class="weui_cells_title item<%=i%>C"><%=ts.name%></div>
+<div class="weui_cells weui_cells_access item<%=i%>C" style="<%= i == 0 ?'':'display:none;'%>">
     <%
         for(var j=0;j<ts.length;++j){
     %>
