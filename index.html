@@ -21,15 +21,15 @@ title: 历史文档
         var currentSelect="item0"
         function navabarSelector(event){
             if( this.id !== currentSelect){
-                var blurNava=$("#"+currentSelect)[0];
+                var blurNava=$("."+currentSelect)[0];
                 blurNava.className="weui_navbar_item";
-                var hided_tab = $("#"+currentSelect+"C")[0];
+                var hided_tab = $("."+currentSelect+"C")[0];
                 if(hided_tab){
                     hided_tab.style.display='none';
                 }
                 this.className ="weui_navbar_item weui_bar_item_on";
                 currentSelect=this.id;
-                $("#"+this.id+"C")[0].style.display="";
+                $("."+this.id+"C")[0].style.display="";
             }
         }
         var $=document.querySelectorAll.bind(document);
