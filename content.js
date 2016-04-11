@@ -1,4 +1,4 @@
-var topBar={
+﻿var topBar={
     src:"./1.jpg",
     style:"width:100vw;max-height:30vh;",
 };
@@ -6,7 +6,7 @@ var data=[
     {
         name:"中文",
         items:[
-            {url:"http://www.qq.com",img:"https://www.baidu.com/img/bd_logo1.png",tip:'测试'},
+            {url:"http://www.baidu.com",img:"https://www.baidu.com/img/bd_logo1.png",tip:'测试'},
         ]
     },
     {
