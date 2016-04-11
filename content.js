@@ -6,7 +6,7 @@ var data=[
     {
         name:"中文",
         items:[
-            {url:"http://www.baidu.com",img:"https://www.baidu.com/img/bd_logo1.png",tip:'测试'},
+            {url:"http://www.baidu.com",img:"https://www.baidu.com/img/bd_logo1.png",tip:'健身'},
         ]
     },
     {
